@@ -4,11 +4,11 @@
   <head>
       <title>RPS Game</title>
       <!-- Link CSS here -->
-      <link href="./css/style.css" rel"stylesheet">
+      <link href="./css/style.css" rel="stylesheet" >
       <!-- Link JQuery here -->
-      
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <!-- Link Javascript File here -->
-      <link href="./js/script.js">
+      <script src="./js/script.js"></script>
       <!-- Latest compiled and minified Bootstrap CSS -->
       
   </head>
@@ -18,12 +18,25 @@
       <title>Raging Pony Scrimmage</title>
       <img id="rps" src="./images/pony.gif">
       <p> Select your Weapon! </p>
-     <div id="inputbutton"> 
-     <div> <input>
-     <button> Submit! </button> 
+
+
+     <div>
+       <input id="userInput"> 
      </div>
-     </div> 
      
+     <button id="shoot">
+       Shoot!
+     </button>
+     
+    
+     <div id="computerinput">
+       <p2> Computer selects their weapon!</p2>
+
+     <div>
+     <input id="computerbox">
+     </div>
+     </div>
+    
       <!-- TASK 1: In the div below. 
         1. In a header tag, add a title.
         2. In a paragraph tag, add instructions on how to play the game.
